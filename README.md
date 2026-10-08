@@ -98,7 +98,7 @@ The project is divided into the following modules:
 ```text
 VIDETEC2/
 │
-├── main.py
+├── main.ipynb                 
 ├── config.py
 ├── radar_jpda_tracker.py
 ├── radar_model.py
@@ -114,7 +114,7 @@ VIDETEC2/
 
 | Module | Purpose |
 |---|---|
-| `main.py` | Creates the tracker configuration and tracker instance |
+| `main.ipynb` | Creates the tracker configuration and tracker instance |
 | `config.py` | Central configuration of tracker parameters |
 | `radar_jpda_tracker.py` | Main EKF + JPDA tracking pipeline |
 | `radar_model.py` | Radar measurement model and Jacobian |
@@ -1364,7 +1364,7 @@ Higher values allow the tracker to adapt more rapidly to changes in target veloc
 | `merge_distance_threshold` | `2.0` | Maximum Euclidean position distance |
 | `merge_confirmed_only` | `False` | Merge only confirmed tracks when enabled |
 
-The value used in `main.py` may differ from the dataclass default.
+The value used in `main.ipynb` may differ from the dataclass default.
 
 ---
 
