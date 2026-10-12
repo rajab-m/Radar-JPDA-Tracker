@@ -3,7 +3,8 @@
 A radar-based multi-target tracking system using **DBSCAN**, **Extended Kalman Filtering (EKF)**, and **Joint Probabilistic Data Association (JPDA)**.
 
 ## Radar Detection Visualization
-
+This GIF visualizes **ViDetect2 stationary infrastructure tracking** in UTM coordinates, showing detections, spatial clusters, and confirmed track positions across consecutive frames.  
+Colored covariance ellipses represent the estimated **95% position confidence regions**, illustrating tracking uncertainty and spatial consistency over time.
 ![Radar video](radar_video.gif)
 
 
