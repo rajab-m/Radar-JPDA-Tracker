@@ -2,6 +2,11 @@
 
 A radar-based multi-target tracking system using **DBSCAN**, **Extended Kalman Filtering (EKF)**, and **Joint Probabilistic Data Association (JPDA)**.
 
+## Radar Detection Visualization
+
+![Radar video](assets/radar_video.gif)
+
+
 ## Tracking Pipeline
 
 ```text
