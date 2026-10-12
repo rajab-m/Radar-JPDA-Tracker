@@ -4,7 +4,7 @@ A radar-based multi-target tracking system using **DBSCAN**, **Extended Kalman F
 
 ## Radar Detection Visualization
 
-![Radar video](assets/radar_video.gif)
+![Radar video](radar_video.gif)
 
 
 ## Tracking Pipeline
